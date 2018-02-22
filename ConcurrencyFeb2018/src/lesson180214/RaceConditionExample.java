@@ -31,7 +31,7 @@ public class RaceConditionExample {
 		thread1.join();
 		thread2.join();
 		
-		while (thread3.isAlive());
+		while (thread3.isAlive()) {}
 		
 		
 		
